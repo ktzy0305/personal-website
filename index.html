@@ -2,10 +2,10 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <script src="https://ktzy0305.github.io/Scripts/bootstrap.min.js"></script>
-    <script src="https://ktzy0305.github.io/Scripts/jquery-3.3.1.min.js"></script>
-    <script src="https://ktzy0305.github.io/Scripts/popper.min.js"></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <script src="Scripts/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -31,5 +31,38 @@
         <h1>Welcome!</h1>
         <h1>This is Kevin's website.</h1>
     </header>
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+            <a class="navbar-brand" href="Main.aspx" style="font-size:32px; font-weight:bold; color:#3399FF";>NP Book Rental</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#staffNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="staffNavbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="AddStaff.aspx">Add Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ViewStaff.aspx">View Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ViewBranch.aspx">View Branch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="RentalCalculator.aspx">Rental Calculator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FineCalculator.aspx">Fine Calculator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ReserveBook.aspx">Reserve Book</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                            <a class="nav-link" href="ReserveBook.aspx">Log</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 </body>
 </html>
