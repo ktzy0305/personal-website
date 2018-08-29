@@ -20,10 +20,29 @@ body{
 
 
 .profile{
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 100px;
     transition-duration: 1s;
+}
+
+.aboutCard{
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .profile{
+        width: 100%;
+        max-width: 100px;
+        height: auto;
+        border-radius: 50px;
+        transition-duration: 1s;
+    }
+
+    .aboutCard{
+        width: 75%;
+    }
 }
 
 .justifyText{
