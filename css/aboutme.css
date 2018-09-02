@@ -1,0 +1,81 @@
+.aboutMe{
+    background: aquamarine;
+}
+
+.aboutMe h4{
+    text-align: center;
+}
+
+.aboutContent{
+    
+}
+
+.aboutCard{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contentStandard{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.skillset{
+    background: red;
+    color: white;
+}
+
+.moreAboutMe{
+    background: gold;
+}
+
+.justifyText{
+    text-align: justify;
+}
+
+.profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 100px;
+    transition-duration: 1s;
+}
+
+.logoStandard{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .contentStandard{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .profile{
+        width: 100%;
+        max-width: 100px;
+        height: auto;
+        border-radius: 50px;
+        transition-duration: 1s;
+    }
+
+    .aboutCard{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+}

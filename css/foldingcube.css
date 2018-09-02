@@ -15,6 +15,10 @@ body{
     vertical-align: middle;
 }
 
+#load span{
+    color: rgb(147, 255, 255);
+}
+
 @media only screen and (max-width: 600px) {
   #load{
     font-family: monospace;
