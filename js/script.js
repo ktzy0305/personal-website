@@ -4,7 +4,7 @@
     function frame(){
         if(loading == 100){
             clearInterval(id);
-            window.open("home.html", "_self")
+            window.open("aboutme.html", "_self")
         } else{
             loading = loading + 2.5;
             if(loading == 90){
