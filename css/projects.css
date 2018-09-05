@@ -1,30 +1,66 @@
-body{
-    
-}
-
 .projectTitle{
-    background: rgba(2, 2, 2, 0.7);
+    background: rgba(0, 0, 0, 0.88);
     color: white;
     text-align: center;
 }
 
-.grid{
-
-}
-
-.projects{
-    text-align: center;
-}
-
-.projectThumbnail{
-    max-width: 300px;
-    height: auto;
+.projectTitle h3{
+    color: rgb(0, 162, 255);
 }
 
 .image{
-
+    display: block;
+    max-width: 240px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.placeholder h4{
+    text-align: center;
+}
+
+.placeholder .buttons{
+    text-align: center;
+}
+
+.placeholder a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.projects{
+    background: rgba(0, 0, 0, 0.88);
+    color: white;
+}
+
+.justifyText{
+    text-align: justify;
+}
+
+.contentStandard{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+    .projectTitle h3{
+        font-size: x-large;
+    }
+
+    .contentStandard{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .placeholder{
+        margin-bottom: 20px;
+    }
+}
 
 
 
