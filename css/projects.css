@@ -8,6 +8,23 @@ body{
     text-align: center;
 }
 
-.MrMap{
-    
+.grid{
+
 }
+
+.projects{
+    text-align: center;
+}
+
+.projectThumbnail{
+    max-width: 300px;
+    height: auto;
+}
+
+.image{
+
+}
+
+
+
+
