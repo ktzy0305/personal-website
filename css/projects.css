@@ -1,3 +1,11 @@
+body{
+    background: linear-gradient(rgba(98, 105, 116, 0.10), rgba(98, 105, 116, 0.10)), url(../Images/Backgrounds/mountain.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .projectTitle{
     background: rgba(0, 0, 0, 0.88);
     color: white;
@@ -38,11 +46,26 @@
     text-align: justify;
 }
 
-.contentStandard{
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+.bgwhite{
+    background: white;
+}
+
+.contact{
+    background: rgb(27, 27, 27);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contact img{
+    width: 30px;
+    height: 30px;
+}
+
+.black{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: rgb(0,0,0);
 }
 
 @media only screen and (max-width: 600px) {
@@ -50,17 +73,11 @@
         font-size: x-large;
     }
 
-    .contentStandard{
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-    }
-
     .placeholder{
         margin-bottom: 20px;
     }
 }
+
 
 
 

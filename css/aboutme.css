@@ -17,7 +17,7 @@ body{
 }
 
 .aboutMe{
-    background: rgba(0, 0, 0, 0.88);
+    background: rgba(0, 0, 0, 0.6);
     color: white;
 }
 
@@ -105,6 +105,24 @@ body{
     width: auto;
     max-width: 200px;
     height: 100px;
+}
+
+.contact{
+    background: rgb(27, 27, 27);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contact img{
+    width: 30px;
+    height: 30px;
+}
+
+.black{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: rgb(0,0,0);
 }
 
 @media only screen and (max-width: 600px) {
