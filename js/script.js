@@ -1,3 +1,5 @@
+import counterUp from './counter.js'
+
 $(document).ready(function () {
     new WOW().init();
     $(".owl-carousel").owlCarousel(
@@ -24,4 +26,13 @@ $(document).ready(function () {
             }
         }
     );
+
+    var el = document.getElementsByClassName('counter')
+    Array.prototype.forEach.call(el, element =>{
+        // Start counting, do this on DOM ready or with Waypoints.
+        counterUp( element, {
+            duration: 1000,
+            delay: 16,
+        } )
+    })
 });
