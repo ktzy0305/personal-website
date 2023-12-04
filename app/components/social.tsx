@@ -10,7 +10,7 @@ export default function SocialMediaIcons() {
         </a>
       </li>
       <li className='mr-4'>
-        <a className={styles.icon} href="https://www.linkedin.com/in/kevin-toh-047688141/" target="_blank" rel="noopener noreferrer">
+        <a className={styles.icon} href="https://www.linkedin.com/in/kevintohhh/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin size={32} />
         </a>
       </li>
