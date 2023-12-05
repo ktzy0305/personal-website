@@ -24,7 +24,7 @@ export default function Experience(props: ExperienceProps) {
         </div>
         <div className="mt-2 flex flex-wrap">
         {
-          (props.tags?.length > 0) ? props.tags.map((tag: string) => <Tag name={tag}/>) : <></>
+          (props.tags?.length > 0) ? props.tags.map((tag: string) => <Tag key={tag} name={tag}/>) : <></>
         }
         </div>
       </div>

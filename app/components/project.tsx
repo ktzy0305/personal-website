@@ -32,7 +32,7 @@ export default function Project(props: ProjectProps) {
           </div>
           <div className="mt-2">
           {
-            (props.tags?.length > 0) ? props.tags.map((tag: string) => <Tag name={tag}/>) : <></>
+            (props.tags?.length > 0) ? props.tags.map((tag: string) => <Tag key={tag} name={tag}/>) : <></>
           }
           </div>
         </div>
