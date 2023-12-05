@@ -1,0 +1,21 @@
+.navItem {
+    color: white;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.navItem::after {
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: transparent;
+    margin-top: 5px;
+}
+
+.navItem.active::after {
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: white;
+    margin-top: 5px;
+}
