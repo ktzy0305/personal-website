@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
-import styles from '../../styles/Social.module.css'
+import styles from '../../styles/social.module.css'
 
 export default function SocialMediaIcons() {
   return (

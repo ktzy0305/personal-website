@@ -20,7 +20,8 @@ const config: Config = {
           "600": "#63FF98",
         },
         'deepblue': {
-          "200": "#2E364D"
+          "100": "#161D2D",
+          "200": "#2E364D",
         },
         'cerulean': {
           "100": "#0F3D5E",

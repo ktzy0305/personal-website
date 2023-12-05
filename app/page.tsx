@@ -1,13 +1,40 @@
+"use client";
+
 import Image from 'next/image'
 import Experience from './components/experience'
 import Project from './components/project'
 import SocialMediaIcons from './components/social'
+import React, { useEffect, useRef } from 'react'
+import Typed from 'typed.js'
 
 export default function Home() {
+  const name = useRef(null);
+  const title = useRef(null);
+
+  useEffect(() => {
+    const typedName = new Typed(name.current, {
+      strings: ['Kevin Toh'],
+      typeSpeed: 50,
+      showCursor: false
+    });
+
+    const typedTitle = new Typed(title.current, {
+      strings: ['Computer Science Undergraduate'],
+      typeSpeed: 50,
+    });
+
+    return () => {
+      typedName.destroy();
+      typedTitle.destroy();
+    }
+  }, []);
+
+
+
   return (
     <main className="flex flex-row flex-wrap lg:px-20">
       {/* Left Half */}
-      <div className='flex flex-col px-6 py-12 sm:px-8 lg:px-6 lg:py-12 xl:p-12 lg:w-2/5 lg:sticky lg:top-0 lg:max-h-screen'>
+      <div className='flex flex-col px-6 py-12 sm:px-8 lg:px-6 lg:py-12 xl:p-12 lg:w-2/5 lg:sticky lg:top-0 lg:max-h-screen lg:-mt-20 lg:pt-32 xl:pt-32'>
         <Image
           priority
           className='rounded-full mb-6'
@@ -17,10 +44,10 @@ export default function Home() {
           alt={"Kevin"}
         />
         <div className='text-white text-4xl lg:text-3xl xl:text-4xl font-bold mb-3'>
-          Kevin Toh
+          <span ref={name} />
         </div>
         <div className='text-white text-lg xl:text-xl mb-3'>
-          Computer Science Undergraduate
+          <span ref={title} />
         </div>
         <div className='text-gray-300 lg:text-sm xl:text-base font-light mb-3'>
           I dive into the intricate details of software development,
