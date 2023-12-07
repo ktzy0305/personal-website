@@ -20,7 +20,7 @@ Despite the string of bad luck, I am grateful that Singapore has numerous social
 # The Fight Back
 > Together we stand, togther we fight!
 
-In the face of cancer, there road to recovery is an arduous journey. It is one that demands resilience, courage, and unwavering support. /beyond medical treatments and therapies, the crucial role of family and friends cannot be underestimated. Their love, encouragement and understanding form the bedrock upon which the fight against cancer stands. I would like to briefly mention that my mom is someone I look up to in the face of adversity because of her unwavering fighting spirit which inspires me to not give up when faced with difficulties in life. I am planning to dedicate a seperate post for her in the future!
+In the face of cancer, there road to recovery is an arduous journey. It is one that demands resilience, courage, and unwavering support. Beyond medical treatments and therapies, the crucial role of family and friends cannot be underestimated. Their love, encouragement and understanding form the bedrock upon which the fight against cancer stands. I would like to briefly mention that my mom is someone I look up to in the face of adversity because of her unwavering fighting spirit which inspires me to not give up when faced with difficulties in life. I am planning to dedicate a seperate post for her in the future!
 
 In our concerted effort to combat cancer, my family has made an ubiquitous decision to foster a healthier lifestyle. We believe that showing our solidarity would let my mom know that we will always be there supporting her as a family. In summary, we adopted healthy eating habits, started being physically active and getting enough sleep each day.
 
