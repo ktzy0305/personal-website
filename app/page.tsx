@@ -75,7 +75,7 @@ export default function Home() {
             start={"Jun 2023"}
             end={"Present"}
             description={
-              "Researched and developed a typescript API for React Native to interact with the iCOQuit Smokerlyzer, "
+              "Researched and developed a typescript API for React Native to interact with the iCOquit Smokerlyzer, "
               + "a carbon monoxide sensor used in smoking cessation applications to measure carbon monoxide levels. "
               + "Integrated the developed API into a smoking cessation mobile app using Expo React Native(TypeScript) "
               + " and Firebase (Authentication and Database)"
@@ -84,7 +84,7 @@ export default function Home() {
           />
           <Experience
             organization={"CSIT"}
-            role={"Software Engineering Intern"}
+            role={"Software Engineer Intern"}
             start={"Mar 2019"}
             end={"Aug 2019"}
             description={
