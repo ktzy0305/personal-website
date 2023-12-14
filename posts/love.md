@@ -1,14 +1,15 @@
 ---
 title: 'Love'
 date: '2023-12-08'
-description: 'Love is a powerful emotion but its so difficult to control'
+description: 'Love is a powerful emotion but its difficult to control'
 ---
 
 # Love
-I struggle with love. It is an emotion that is complex to me but a piece of cake to others. This year was the first time I experienced love and it wasn't as straightforward as I hoped. I wasn't expecting love to disappoint me time and time again, toying with my emotions and affecting me mentally. Love is an unfair game, sometimes you get on her good side and you'll experience bliss at other times you are thrown into the deep end and you feel so defeated because the many compromises you made were useless; the efforts you've made gone to waste.
+I struggle with love. It is an emotion that is complex to me but simple to others. This year was the first time I experienced love and it wasn't as straightforward as I hoped. I wasn't expecting love to disappoint me time and time again, toying with my emotions and affecting me mentally. 
+Love has its beautiful and nasty side. Being on her good side brings immense joy and happiness. The feeling of being loved and cared for is very comforting and fulfilling. At other times you are thrown into the deep end and you feel so defeated because the many compromises you made were useless; the efforts you've made gone to waste.
 
 # Eight
-"eight" by IU perfectly describes how love can be sometimes. When things are going well love is as beautiful as an angel. But when things suddenly take a turn for the worst, relationships can end abruptly as people can come and go as they wish. It is dissapointing because love created wonderful memories that will remain forever in our hearts. 
+"eight" by IU perfectly describes how love can be sometimes. When things are going well, love is as beautiful as an angel. But when things suddenly take a turn for the worst, relationships can end abruptly as people can come and go as they wish. It is dissapointing because love created wonderful memories that will remain forever in our hearts.
 
 Here is an exerpt from the lyrics of "eight".
 
