@@ -38,14 +38,17 @@ Rodgers frequently incorporates major 7 (maj7) and minor 7 (min7) chords into hi
 Learning to emulate Nile Rodgers' distinctive funk guitar technique was exhilarating yet challenging to perfect. While his sound is instantly recognizable, the intricacies of his high chords, major and minor 7th voicings, and rhythmic precision have proven to be both a formidable puzzle.
 
 # 3. Slash
-![Chuck Berry](/images/blog/guitar-heroes/slash.jpeg)
+![Slash](/images/blog/guitar-heroes/slash.jpeg)
 > I never want to draw attention to myself, but thats all I do.
 
 The iconic riffs from "Sweet Child o' Mine", "Paradise City" and "Novemember Rain" are the brainchild of Saul Hudson, more commonly known as Slash. He is the lead guitarist of the hard rock band Guns N' Roses. With his trusty Gibson Les Paul, he is one of the legendary gods of rock music. Slash has etched his name into the annals of rock history through his soulful solos, distinctive top hat, and the timeless riffs that have become the heartbeat of rock anthems.
 
 ## No need for speed
-In most guitar solos, guitarists tend to play alot of notes really fast. But Slash does this sparingly. In most of his solos, he places the melody as the main ingredient for the composition. He shreds only if its necessary as heard towards the end of "Paradise City" and before the final verse of his own song "Anastasia".
+In most guitar solos, guitarists tend to play alot of notes really fast. But Slash does this sparingly. In most of his solos, he places the melody as the main ingredient for the composition. He shreds only if its necessary as heard towards the end of "Paradise City" and before the final verse of his own song "Anastasia". 
 
+## Elite Rock Musician
+Slash is a music prodigy. He has a signature sense of melody owing to his choice of notes and well use of octaves. If you've listened to his solo in "November Rain", you would have noticed that around the 6 minute mark, a tonal shift occurs, marking the entry of Slash's iconic guitar solo. This solo introduces a distinct rock energy, characterized by powerful guitar riffs, soaring melodies, and a more up-tempo feel.
+Slash's guitar work in this section is a testament to his ability to infuse emotion and technical prowess, seamlessly transitioning the song from a contemplative ballad to a rock epic.
 
 # 4. Kurt Kobain
 
