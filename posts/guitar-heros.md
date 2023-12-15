@@ -5,7 +5,7 @@ description: 'Celebrating My All-Time Favorite Guitarists'
 ---
 
 # Introduction
-In the realm of music, the guitar stands as a timeless symbol of artistic expression and sonic innovation. Its strings resonate with the stories of legendary musicians who have shaped the very fabric of our musical tapestry. As a devoted guitarist, I find immense joy in exploring the rich world of guitarists who have left an indelible mark on the history of music. Join me on a journey through the strumming landscapes of five extraordinary artists, each possessing a unique mastery of the guitar: Chuck Berry, Nile Rodgers, Slash, Kurt Cobain, and Richie Sambora. As we delve into their distinctive styles, contributions, and the magic they've woven into the chords of our lives, let's celebrate the guitar heroes who have set our hearts ablaze with their unparalleled talents.
+In the realm of music, the guitar stands as a timeless symbol of artistic expression and sonic innovation. Its strings resonate with the stories of legendary musicians who have shaped the very fabric of our musical tapestry. As a devoted guitarist myself, I find immense joy in exploring the extensive world of guitarists who have left an indelible mark on the history of music. Join me on a journey as I introduce you to five extraordinary artists, each possessing a unique mastery of the guitar: Chuck Berry, Nile Rodgers, Slash, Kurt Cobain, and Richie Sambora. As we delve into their distinctive styles, contributions, and the magic they've woven into the chords of our lives, let's celebrate the guitar heroes who have set our hearts ablaze with their unparalleled talents.
 
 # 1. Chuck Berry
 
@@ -19,15 +19,34 @@ At the core of Chuck Berry's magic lies the pentatonic scale, a five-note scale 
 ## Analysis of the Solo:
 The song's iconic solo is a masterclass in pentatonic prowess. Berry effortlessly weaves through the scale, delivering a series of bends, slides, and quick, punchy notes that define the essence of rock and roll guitar. The solo is a testament to how a basic scale can be elevated to greatness through inventive phrasing and a distinctive playing style.
 
-## Impact on Guitarists:
-Countless guitarists, from Keith Richards to Angus Young, have acknowledged Chuck Berry's influence on their playing, specifically citing the infectious simplicity of the pentatonic scale. The solo in "Johnny B. Goode" has become a rite of passage for budding guitarists, offering a tangible entry point into the world of rock guitar.
-
-## Legacy and Timelessness:
-The enduring popularity of "Johnny B. Goode" can be attributed, in part, to Berry's ingenious use of the pentatonic scale. The riff remains as fresh and exciting today as it did over six decades ago, a testament to the timeless quality of both Chuck Berry's music and the enduring appeal of the pentatonic scale.
-
-## Personal Reflection:
-As a guitarist, learning to play "Johnny B. Goode" was a delightful experience. The simplicity of the pentatonic scale made it easier to learn the riffs but the challenge lies in capturing the nuance and style the Chuck Berry effortless infused into every note. Bonus points if you can solo and duck walk like Chuck Berry!
+## Personal Experience:
+Learning to play "Johnny B. Goode" was a delightful experience. The simplicity of the pentatonic scale made it easier to learn the riffs but the challenge lies in capturing the nuance and style the Chuck Berry effortless infused into every note. Bonus points if you can solo and duck walk like Chuck Berry!
 
 # 2. Nile Rodgers
-![Chuck Berry](/images/blog/guitar-heroes/nile-rodgers.jpeg)
+
+![Nile Rodgers](/images/blog/guitar-heroes/nile-rodgers.jpeg)
+
 Nile Rodgers stands as a maestro of funk, a guitarist whose rhythmic prowess and infectious grooves have left an indelible mark on the world of music. His approach to funk is a masterclass in precision, innovation, and a relentless commitment to the groove. Nile Rodgers' guitar genius reaches its zenith in the disco anthem "Le Freak" by Chic. This funky masterpiece serves as a testament to Rodgers' unparalleled ability to infuse rhythm and groove into every strum, creating an infectious danceable sound.
+
+## Favouring high strings
+Nile Rodgers often favors playing chords in higher registers of the guitar. This not only adds brightness to the overall sound but also allows his guitar parts to cut through the mix, providing clarity and definition to the rhythmic patterns. The use of high chords contributes to the crispness and sparkle that is characteristic of Rodgers' funk guitar work.
+
+## Major and minor 7th chords
+Rodgers frequently incorporates major 7 (maj7) and minor 7 (min7) chords into his playing. These extended chords introduce additional color and complexity to the harmonies. The major 7th chords, with their bright and jazzy quality, can be heard in various Chic compositions, adding sophistication to the overall sound. Meanwhile, the minor 7th chords contribute a soulful and bluesy flavor, enhancing the emotional depth of the music.
+
+## Personal Experience:
+Learning to emulate Nile Rodgers' distinctive funk guitar technique was exhilarating yet challenging to perfect. While his sound is instantly recognizable, the intricacies of his high chords, major and minor 7th voicings, and rhythmic precision have proven to be both a formidable puzzle.
+
+# 3. Slash
+![Chuck Berry](/images/blog/guitar-heroes/slash.jpeg)
+> I never want to draw attention to myself, but thats all I do.
+
+The iconic riffs from "Sweet Child o' Mine", "Paradise City" and "Novemember Rain" are the brainchild of Saul Hudson, more commonly known as Slash. He is the lead guitarist of the hard rock band Guns N' Roses. With his trusty Gibson Les Paul, he is one of the legendary gods of rock music. Slash has etched his name into the annals of rock history through his soulful solos, distinctive top hat, and the timeless riffs that have become the heartbeat of rock anthems.
+
+## No need for speed
+In most guitar solos, guitarists tend to play alot of notes really fast. But Slash does this sparingly. In most of his solos, he places the melody as the main ingredient for the composition. He shreds only if its necessary as heard towards the end of "Paradise City" and before the final verse of his own song "Anastasia".
+
+
+# 4. Kurt Kobain
+
+# 5. Ritchie Sambora
