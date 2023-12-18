@@ -4,14 +4,17 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import NavigationBar from './components/navbar'
 import { ThemeProvider } from './contexts/ThemeContext';
+import { ReactNode } from 'react';
+
+export type LayoutProps = {
+  children: ReactNode;
+  types: ReactNode;
+  params?: any;
+};
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout(props: LayoutProps) {
   return (
     <html lang="en">
       <head>
@@ -24,7 +27,7 @@ export default function RootLayout({
           {/* Navigation Bar */}
           <NavigationBar />
           {/* Child Components */}
-          {children}
+          {props.children}
         </ThemeProvider>
       </body>
     </html>
