@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Tag from "./tag"
+import { useTheme } from "../contexts/ThemeContext";
 
 interface ProjectProps {
   name: string,
@@ -12,9 +13,17 @@ interface ProjectProps {
 }
 
 export default function Project(props: ProjectProps) {
+  const { isDarkMode } = useTheme() ?? {};
+
   return (
     <div className="flex mb-6">
-      <a href={props.url} className="flex flex-wrap w-full hover:bg-deepblue-200 hover:text-cerulean-600 rounded-md py-3 sm:px-3">
+      <a 
+        href={props.url} 
+        className={
+          `${isDarkMode ? 'hover:bg-deepblue-200 text-cerulean-600' : 'hover:bg-sky-50'} 
+          flex flex-wrap w-full rounded-md py-3 sm:px-3`
+        }
+      >
         <div className="sm:w-1/3 flex-shrink-0 flex items-center">
           <Image
             src={props.imageUrl}
@@ -27,7 +36,7 @@ export default function Project(props: ProjectProps) {
           <div className="flex items-center mt-3 sm:mt-0">
             {props.name}
           </div>
-          <div className="mt-2 text-sm text-slate-400">
+          <div className={`${isDarkMode ? 'text-slate-400' : 'text-slate-500'} mt-2 text-sm`}>
             {props.description}
           </div>
           <div className="mt-2">

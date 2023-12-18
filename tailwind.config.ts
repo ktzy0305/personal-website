@@ -6,6 +6,7 @@ const config: Config = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       backgroundImage: {
@@ -26,6 +27,9 @@ const config: Config = {
         'cerulean': {
           "100": "#0F3D5E",
           "600": "#98E6FF",
+        },
+        'light': {
+          "100": "#D6DBDC",
         }
       }
     },

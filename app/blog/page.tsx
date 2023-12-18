@@ -2,6 +2,7 @@ import Link from "next/link";
 import Date from "../components/date";
 import utilStyles from "@/styles/utils.module.css"
 import { getSortedPostsData } from '@/lib/posts';
+import { useTheme } from "../contexts/ThemeContext";
 
 type AllPostsData = {
   date: string
@@ -19,7 +20,7 @@ export default function Blog() {
         <h2 className={`${utilStyles.headingXl} px-3`}>What&apos;s on Kevin&apos;s mind?</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, description }) => (
-            <li className={`${utilStyles.listItem} hover:bg-deepblue-200 hover:text-cerulean-600 p-3 rounded-md`} key={id}>
+            <li className={`${utilStyles.listItem} hover:bg-sky-50 hover:text-neutral-500 p-3 rounded-md`} key={id}>
               <Link href={`/blog/${id}`} className={utilStyles.headingLg}>{title}</Link>
               <p className={utilStyles.descriptionText}>{ description }</p>
               <small className={utilStyles.lightText}>

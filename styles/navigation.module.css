@@ -1,5 +1,5 @@
 .navItem {
-    color: white;
+    color: var(--navItem-color, black);
     font-size: 1.25em;
     font-weight: 600;
 }
@@ -16,6 +16,10 @@
     content: '';
     display: block;
     height: 4px;
-    background-color: white;
+    background-color: var(--navItem-color, black);
     margin-top: 5px;
+}
+
+nav.navbar {
+    background: var(--navbar-color, 33, 43, 69);
 }
