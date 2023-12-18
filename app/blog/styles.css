@@ -11,7 +11,7 @@ h3 {
 }
 
 p {
-    @apply py-2 text-slate-300;
+    @apply py-2 dark:text-slate-300;
 }
 
 ol {

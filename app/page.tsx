@@ -6,8 +6,11 @@ import Project from './components/project'
 import SocialMediaIcons from './components/social'
 import React, { useEffect, useRef } from 'react'
 import Typed from 'typed.js'
+import { useTheme } from './contexts/ThemeContext';
 
 export default function Home() {
+  const { isDarkMode } = useTheme() ?? {};
+
   const name = useRef(null);
   const title = useRef(null);
 
@@ -29,8 +32,6 @@ export default function Home() {
     }
   }, []);
 
-
-
   return (
     <main className="flex flex-row flex-wrap lg:px-20">
       {/* Left Half */}
@@ -43,13 +44,13 @@ export default function Home() {
           width={160}
           alt={"Kevin"}
         />
-        <div className='text-white text-4xl lg:text-3xl xl:text-4xl font-bold mb-3'>
+        <div className='text-4xl lg:text-3xl xl:text-4xl font-bold mb-3'>
           <span ref={name} />
         </div>
-        <div className='text-white text-lg xl:text-xl mb-3'>
+        <div className='text-lg xl:text-xl mb-3'>
           <span ref={title} />
         </div>
-        <div className='text-gray-300 lg:text-sm xl:text-base font-light mb-3'>
+        <div className={`${isDarkMode ? 'text-gray-300' : 'text-gray-600'} 'lg:text-sm xl:text-base font-light mb-3`}>
           I dive into the intricate details of software development,
           gaining hands-on experience that extends across various platforms.
         </div>
@@ -60,7 +61,7 @@ export default function Home() {
         {/* About */}
         <section id="about">
           <header className='font-bold uppercase mb-4 text-lg'>About</header>
-          <div className='text-white mb-6'>
+          <div className='mb-6'>
             Hello there! I’m a sophomore at National University of Singapore immersing myself in the world of
             Computer Science with a minor in Data Science and Analytics. My passion lies in creating innovative
             software solutions that contribute to the evolution of our digital landscape.

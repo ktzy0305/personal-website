@@ -1,7 +1,17 @@
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
-import styles from '@/styles/Social.module.css'
+import styles from '@/styles/social.module.css'
+import { useTheme } from '../contexts/ThemeContext';
+import { useEffect } from 'react';
 
 export default function SocialMediaIcons() {
+  const { isDarkMode } = useTheme() ?? {};
+
+  useEffect(() => {
+    // Update CSS variables when the theme changes
+    document.documentElement.style.setProperty('--icon-color', isDarkMode ? '#B9B9B9' : '#606060');
+    document.documentElement.style.setProperty('--icon-hover-color', isDarkMode ? '#ffffff' : '#A0A0A0');
+  }, [isDarkMode])
+
   return (
     <ul className='list-none p-0 flex'>
       <li className='mr-4'>
