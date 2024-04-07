@@ -15,7 +15,7 @@ p {
 }
 
 ol {
-    @apply space-y-1 text-gray-500 list-decimal list-inside dark:text-gray-400
+    @apply space-y-1 text-gray-500 list-decimal list-inside dark:text-gray-400;
 }
 
 ul {
