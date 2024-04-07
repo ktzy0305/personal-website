@@ -37,6 +37,7 @@ next-env.d.ts
 
 # visual studio code
 .vscode/*
+.vscode
 
 # eslint
 *.eslintrc.json
