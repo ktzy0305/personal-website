@@ -7,6 +7,8 @@ import SocialMediaIcons from './components/social';
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import { useTheme } from './contexts/ThemeContext';
+import { experience } from '@/lib/experience';
+import { WorkExperience } from './@types/workexperience';
 
 export default function Home() {
   const { isDarkMode } = useTheme() ?? {};
@@ -78,31 +80,16 @@ export default function Home() {
           <header className="font-bold uppercase mb-4 text-lg">
             Experience
           </header>
-          <Experience
-            organization={'NUS Computing'}
-            role={'Research Engineer'}
-            start={'Jun 2023'}
-            end={'Feb 2024'}
-            description={
-              'Researched and developed a typescript API for React Native to interact with the iCOquit Smokerlyzer, ' +
-              'a carbon monoxide sensor used in smoking cessation applications to measure carbon monoxide levels. ' +
-              'Integrated the developed API into a smoking cessation mobile app using Expo React Native(TypeScript) ' +
-              ' and Firebase (Authentication and Database)'
-            }
-            tags={['React Native', 'Embedded Programming']}
-          />
-          <Experience
-            organization={'CSIT'}
-            role={'Software Engineer Intern'}
-            start={'Mar 2019'}
-            end={'Aug 2019'}
-            description={
-              'Designed, implemented and deployed the backend of a collaborative meeting management ' +
-              'system using SpringBoot, VueJS, ElasticSearch and NLTK within a 5-month timeframe, ' +
-              'enhancing efficiency in meeting processes.'
-            }
-            tags={['SpringBoot', 'VueJS', 'Natural Language Processing']}
-          />
+          {experience.map((experience: WorkExperience) => (
+            <Experience
+              organization={experience.organization}
+              role={experience.role}
+              start={experience.start}
+              end={experience.end}
+              description={experience.description}
+              tags={experience.tags}
+            />
+          ))}
         </section>
         {/* Projects */}
         <section id="projects">
