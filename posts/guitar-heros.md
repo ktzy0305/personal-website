@@ -1,7 +1,7 @@
 ---
-title: 'Guitar Heroes'
-date: '2023-12-07'
-description: 'Celebrating My All-Time Favorite Guitarists'
+title: "Guitar Heroes"
+date: "2023-12-07"
+description: "Celebrating My All-Time Favorite Guitarists"
 ---
 
 # Introduction

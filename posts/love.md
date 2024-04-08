@@ -1,7 +1,7 @@
 ---
-title: 'Love'
-date: '2023-12-08'
-description: 'Love is a powerful emotion but its difficult to control'
+title: "Love"
+date: "2023-12-08"
+description: "Love is a powerful emotion but its difficult to control"
 ---
 
 # Love

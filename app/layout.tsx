@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { Inter } from 'next/font/google';
-import './globals.css';
-import NavigationBar from './components/navbar';
-import { ThemeProvider } from './contexts/ThemeContext';
-import { ReactNode } from 'react';
+import { Inter } from "next/font/google";
+import "./globals.css";
+import NavigationBar from "./components/navbar";
+import { ThemeProvider } from "./contexts/ThemeContext";
+import { ReactNode } from "react";
 
 export type LayoutProps = {
   children: ReactNode;
@@ -12,7 +12,7 @@ export type LayoutProps = {
   params?: any;
 };
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout(props: LayoutProps) {
   return (
