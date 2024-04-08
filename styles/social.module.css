@@ -1,8 +1,8 @@
 .icon {
-    color: var(--icon-color, #B9B9B9);
-    transition: color 0.3s ease;
+  color: var(--icon-color, #b9b9b9);
+  transition: color 0.3s ease;
 }
 
 .icon:hover {
-    color: var(--icon-hover-color, #ffffff);
+  color: var(--icon-hover-color, #ffffff);
 }

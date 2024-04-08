@@ -1,25 +1,25 @@
 .navItem {
-    color: var(--navItem-color, black);
-    font-size: 1.25em;
-    font-weight: 600;
+  color: var(--navItem-color, black);
+  font-size: 1.25em;
+  font-weight: 600;
 }
 
 .navItem::after {
-    content: '';
-    display: block;
-    height: 4px;
-    background-color: transparent;
-    margin-top: 5px;
+  content: '';
+  display: block;
+  height: 4px;
+  background-color: transparent;
+  margin-top: 5px;
 }
 
 .navItem.active::after {
-    content: '';
-    display: block;
-    height: 4px;
-    background-color: var(--navItem-color, black);
-    margin-top: 5px;
+  content: '';
+  display: block;
+  height: 4px;
+  background-color: var(--navItem-color, black);
+  margin-top: 5px;
 }
 
 nav.navbar {
-    background: var(--navbar-color, 33, 43, 69);
+  background: var(--navbar-color, 33, 43, 69);
 }

@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import React, { createContext, useState, useContext, useEffect } from 'react';
 import { ThemeContextType } from '../@types/theme';
@@ -10,15 +10,26 @@ const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
   const isWindowDefined = typeof window !== 'undefined';
 
   // Set prefersDarkMode based on the system's color scheme preference
-  const prefersDarkMode = isWindowDefined ? window.matchMedia('(prefers-color-scheme: dark)').matches : true;
+  const prefersDarkMode = isWindowDefined
+    ? window.matchMedia('(prefers-color-scheme: dark)').matches
+    : true;
 
   const [isDarkMode, setDarkMode] = useState<boolean>(prefersDarkMode);
 
   useEffect(() => {
     // Update CSS variables when the theme changes
-    document.documentElement.style.setProperty('--foreground-rgb', isDarkMode ? '255, 255, 255' : '0, 0, 0');
-    document.documentElement.style.setProperty('--background-start-rgb', isDarkMode ? '22, 28, 45' : '214, 219, 220');
-    document.documentElement.style.setProperty('--background-end-rgb', isDarkMode ? '33, 43, 69' : '255, 255, 255');
+    document.documentElement.style.setProperty(
+      '--foreground-rgb',
+      isDarkMode ? '255, 255, 255' : '0, 0, 0',
+    );
+    document.documentElement.style.setProperty(
+      '--background-start-rgb',
+      isDarkMode ? '22, 28, 45' : '214, 219, 220',
+    );
+    document.documentElement.style.setProperty(
+      '--background-end-rgb',
+      isDarkMode ? '33, 43, 69' : '255, 255, 255',
+    );
   }, [isDarkMode]);
 
   const toggleDarkMode = () => {
