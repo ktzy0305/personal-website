@@ -1,4 +1,4 @@
 export type ThemeContextType = {
-    isDarkMode: boolean;
-    toggleDarkMode: () => void;
+  isDarkMode: boolean;
+  toggleDarkMode: () => void;
 };

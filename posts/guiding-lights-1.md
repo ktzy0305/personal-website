@@ -21,4 +21,3 @@ One invaluable lesson I gleaned from Mr. Tan was the art of relatability in comm
 Mr. Tan's impact extended beyond the classroom. His teaching philosophy taught me that effective communication isn't just about delivering information. It is about creating a connection. Whether unravelling the mysteries of Chinese characters or guiding us through the nuances of the language, he showed us that relatability and engagement were the keys to fostering a true understanding of any subject.
 
 Reflecting on those formative years, I realize that Mr. Tan wasn't just a teacher; he was an inspiration. His dedication to making learning an exciting journey left an indelible mark on my approach to education and communication. In essence, he taught me that the art of teaching is a combination of connection and engagement; a lesson that goes far beyond the pages of a textbook.
-

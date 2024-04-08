@@ -1,39 +1,39 @@
 h1 {
-    @apply font-medium text-2xl py-2;
+  @apply font-medium text-2xl py-2;
 }
 
 h2 {
-    @apply font-medium text-xl py-2;
+  @apply font-medium text-xl py-2;
 }
 
 h3 {
-    @apply font-medium text-lg py-2;
+  @apply font-medium text-lg py-2;
 }
 
 p {
-    @apply py-2 dark:text-slate-300;
+  @apply py-2 dark:text-slate-300;
 }
 
 ol {
-    @apply space-y-1 text-gray-500 list-decimal list-inside dark:text-gray-400;
+  @apply space-y-1 text-gray-500 list-decimal list-inside dark:text-gray-400;
 }
 
 ul {
-    @apply space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400;
+  @apply space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400;
 }
 
 blockquote {
-    @apply p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-900;
+  @apply p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-900;
 }
 
 blockquote > p {
-    @apply text-lg italic font-medium leading-relaxed text-gray-900 dark:text-white;
+  @apply text-lg italic font-medium leading-relaxed text-gray-900 dark:text-white;
 }
 
 pre {
-    @apply p-4 rounded-md border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-900;
+  @apply p-4 rounded-md border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-900;
 }
 
 p > img {
-    width: 300px;
+  width: 300px;
 }
