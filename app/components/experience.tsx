@@ -1,5 +1,5 @@
-import { useTheme } from '../contexts/ThemeContext';
-import Tag from './tag';
+import { useTheme } from "../contexts/ThemeContext";
+import Tag from "./tag";
 
 interface ExperienceProps {
   organization: string;
@@ -10,7 +10,7 @@ interface ExperienceProps {
   tags: string[];
 }
 
-export default function Experience(props: ExperienceProps) {
+export default function ExperienceComponent(props: ExperienceProps) {
   const { isDarkMode } = useTheme() ?? {};
 
   return (
@@ -25,7 +25,9 @@ export default function Experience(props: ExperienceProps) {
           {props.role} · {props.organization}
         </div>
         <div
-          className={`${isDarkMode ? 'text-slate-400' : 'text-slate-500'} mt-2 text-sm`}
+          className={`${
+            isDarkMode ? "text-slate-400" : "text-slate-500"
+          } mt-2 text-sm`}
         >
           {props.description}
         </div>

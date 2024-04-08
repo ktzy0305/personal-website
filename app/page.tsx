@@ -1,14 +1,16 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import Experience from './components/experience';
-import Project from './components/project';
-import SocialMediaIcons from './components/social';
-import React, { useEffect, useRef } from 'react';
-import Typed from 'typed.js';
-import { useTheme } from './contexts/ThemeContext';
-import { experience } from '@/lib/experience';
-import { WorkExperience } from './@types/workexperience';
+import Image from "next/image";
+import ExperienceComponent from "./components/experience";
+import ProjectComponent from "./components/project";
+import SocialMediaIcons from "./components/social";
+import React, { useEffect, useRef } from "react";
+import Typed from "typed.js";
+import { useTheme } from "./contexts/ThemeContext";
+import { experience } from "@/lib/experience";
+import { WorkExperience } from "./@types/workexperience";
+import { projects } from "@/lib/projects";
+import { Project } from "./@types/project";
 
 export default function Home() {
   const { isDarkMode } = useTheme() ?? {};
@@ -18,13 +20,13 @@ export default function Home() {
 
   useEffect(() => {
     const typedName = new Typed(name.current, {
-      strings: ['Kevin Toh'],
+      strings: ["Kevin Toh"],
       typeSpeed: 50,
       showCursor: false,
     });
 
     const typedTitle = new Typed(title.current, {
-      strings: ['Computer Science Undergraduate'],
+      strings: ["Computer Science Undergraduate"],
       typeSpeed: 50,
     });
 
@@ -44,7 +46,7 @@ export default function Home() {
           src="/images/profile/kevin.jpg"
           height={160}
           width={160}
-          alt={'Kevin'}
+          alt={"Kevin"}
         />
         <div className="text-4xl lg:text-3xl xl:text-4xl font-bold mb-3">
           <span ref={name} />
@@ -54,7 +56,7 @@ export default function Home() {
         </div>
         <div
           className={`${
-            isDarkMode ? 'text-gray-300' : 'text-gray-600'
+            isDarkMode ? "text-gray-300" : "text-gray-600"
           } 'lg:text-sm xl:text-base font-light mb-3`}
         >
           I dive into the intricate details of software development, gaining
@@ -81,7 +83,7 @@ export default function Home() {
             Experience
           </header>
           {experience.map((experience: WorkExperience) => (
-            <Experience
+            <ExperienceComponent
               organization={experience.organization}
               role={experience.role}
               start={experience.start}
@@ -94,46 +96,17 @@ export default function Home() {
         {/* Projects */}
         <section id="projects">
           <header className="font-bold uppercase mb-4 text-lg">Projects</header>
-          <Project
-            name={'VoluNteerUS'}
-            description={
-              'A volunteering platform with robust volunteering management features for NUS students ' +
-              'to sign up for volunteering opportunities and management from student clubs and ' +
-              'organizations to manage volunteering events.'
-            }
-            imageUrl={'/images/projects/volunteerus.png'}
-            imageWidth={160}
-            imageHeight={120}
-            url={'https://volunteer-us.onrender.com/'}
-            tags={['React', 'NestJS', 'MongoDB']}
-          />
-          <Project
-            name={'Gastronome'}
-            description={
-              'A meal planning application focused on promoting healthier lifestyles by providing ' +
-              'personalized meal and diet recommendations tailored to user preferences. ' +
-              'The project aims to inspire individuals to adopt healthier dietary habits for improved well-being.'
-            }
-            imageUrl={'/images/projects/gastronome.png'}
-            imageWidth={120}
-            imageHeight={120}
-            url={'https://gastronomecc.github.io/gastronome-site/'}
-            tags={['Android', 'Firebase']}
-          />
-          <Project
-            name={'BackToGoal'}
-            description={
-              'Pioneered a groundbreaking feature for the BackToGoal running app, leveraging real-time pace data ' +
-              "to intelligently predict and signal users when it's time to turn back. This innovative functionality " +
-              'optimizes time management during runs, enhancing the overall user experience and setting the app apart ' +
-              'in the fitness technology landscape.'
-            }
-            imageUrl={'/images/projects/BackToGoal.png'}
-            imageWidth={120}
-            imageHeight={120}
-            url={'https://github.com/ktzy0305/BackToGoal'}
-            tags={['iOS', 'Swift', 'MapKit']}
-          />
+          {projects.map((project: Project) => (
+            <ProjectComponent
+              name={project.name}
+              description={project.description}
+              imageUrl={project.imageUrl}
+              imageWidth={project.imageWidth}
+              imageHeight={project.imageHeight}
+              url={project.url}
+              tags={project.tags}
+            />
+          ))}
         </section>
       </div>
     </main>

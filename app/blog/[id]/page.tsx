@@ -1,10 +1,10 @@
-import Date from '@/app/components/date';
-import { getPostData } from '@/lib/posts';
-import Link from 'next/link';
-import { FaArrowLeft } from 'react-icons/fa';
-import Image from 'next/image';
-import utilStyles from '@/styles/utils.module.css';
-import '@/app/blog/styles.css';
+import Date from "@/app/components/date";
+import { getPostData } from "@/lib/posts";
+import Link from "next/link";
+import { FaArrowLeft } from "react-icons/fa";
+import Image from "next/image";
+import utilStyles from "@/styles/utils.module.css";
+import "@/app/blog/styles.css";
 
 interface PostData {
   title: string;
@@ -52,7 +52,7 @@ export default async function Post({ params }: Props) {
             src="/images/profile/kevin.jpg"
             height={64}
             width={64}
-            alt={'Kevin'}
+            alt={"Kevin"}
           />
           <div className="flex flex-col my-auto">
             {/* Post Author */}

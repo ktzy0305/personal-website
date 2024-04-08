@@ -1,7 +1,7 @@
 ---
-title: 'Letting Go'
-date: '2023-12-16'
-description: 'One of the hardest lessons in life is letting go. Change is never easy. We fight to hold on and fight to let go.'
+title: "Letting Go"
+date: "2023-12-16"
+description: "One of the hardest lessons in life is letting go. Change is never easy. We fight to hold on and fight to let go."
 ---
 
 > I'm grateful for those who've been by my side when I was going through a difficult time in my life and this blog post encapsulates the advice and each and every single one of you have given me which I've found helpful!

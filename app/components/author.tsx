@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Author() {
   return (
@@ -9,7 +9,7 @@ export default function Author() {
         src="/images/profile/kevin.jpg"
         height={64}
         width={64}
-        alt={'Kevin'}
+        alt={"Kevin"}
       />
       <div>Kevin Toh</div>
     </div>

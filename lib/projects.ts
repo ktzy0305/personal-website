@@ -1,0 +1,44 @@
+import { Project } from "@/app/@types/project";
+
+export const projects: Project[] = [
+  {
+    name: "Burnout Support Bot",
+    description:
+      "Burnout Support Bot is an empathetic companion that helps you to identify burnouts, journal gratitude and reclaim balance through conversational therapy.",
+    imageUrl: "/images/projects/burnout_support.jpeg",
+    imageWidth: 120,
+    imageHeight: 120,
+    url: "https://devpost.com/software/burnout-support",
+    tags: ["DeepFace", "FAISS", "Langchain", "LlamaIndex", "MistralAI"],
+  },
+  {
+    name: "VoluNteerUS",
+    description:
+      "A volunteering platform with robust volunteering management features for NUS students to sign up for volunteering opportunities and management from student clubs and organizations to manage volunteering events.",
+    imageUrl: "/images/projects/volunteerus.png",
+    imageWidth: 160,
+    imageHeight: 120,
+    url: "https://volunteer-us.onrender.com/",
+    tags: ["React", "NestJS", "MongoDB"],
+  },
+  {
+    name: "Gastronome",
+    description:
+      "A meal planning application focused on promoting healthier lifestyles by providing personalized meal and diet recommendations tailored to user preferences. The project aims to inspire individuals to adopt healthier dietary habits for improved well-being.",
+    imageUrl: "/images/projects/gastronome.png",
+    imageWidth: 120,
+    imageHeight: 120,
+    url: "https://gastronomecc.github.io/gastronome-site/",
+    tags: ["Android", "Firebase"],
+  },
+  {
+    name: "BackToGoal",
+    description:
+      "Pioneered a groundbreaking feature for the BackToGoal running app, leveraging real-time pace data to intelligently predict and signal users when it's time to turn back. This innovative functionality optimizes time management during runs, enhancing the overall user experience and setting the app apart in the fitness technology landscape.",
+    imageUrl: "/images/projects/gastronome.png",
+    imageWidth: 120,
+    imageHeight: 120,
+    url: "https://gastronomecc.github.io/gastronome-site/",
+    tags: ["Android", "Firebase"],
+  },
+];

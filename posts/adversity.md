@@ -1,7 +1,7 @@
 ---
-title: 'The Fight Against Adversity'
-date: '2023-12-05'
-description: 'Sometimes life hits you hard with unpleasant situations but do not give up! Stand up and fight back!'
+title: "The Fight Against Adversity"
+date: "2023-12-05"
+description: "Sometimes life hits you hard with unpleasant situations but do not give up! Stand up and fight back!"
 ---
 
 # Overview

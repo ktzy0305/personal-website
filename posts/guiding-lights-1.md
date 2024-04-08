@@ -1,7 +1,7 @@
 ---
-title: 'Guiding Lights: Part 1'
-date: '2023-12-06'
-description: 'An appreciation post about the people I look up to in life and how they inspire me to be person I am today.'
+title: "Guiding Lights: Part 1"
+date: "2023-12-06"
+description: "An appreciation post about the people I look up to in life and how they inspire me to be person I am today."
 ---
 
 # Introduction

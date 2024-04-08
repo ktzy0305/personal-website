@@ -1,7 +1,7 @@
 ---
-title: 'Generative AI in Healthcare: Balancing AI and Humanism'
-date: '2024-04-06'
-description: 'As doctors turn to AI to assist in their daily responsibilities, it begs the issue of who is actually making our healhcare decisions.'
+title: "Generative AI in Healthcare: Balancing AI and Humanism"
+date: "2024-04-06"
+description: "As doctors turn to AI to assist in their daily responsibilities, it begs the issue of who is actually making our healhcare decisions."
 ---
 
 # Generative AI in Healthcare: Balancing AI and Humanism
