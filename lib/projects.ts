@@ -35,10 +35,10 @@ export const projects: Project[] = [
     name: "BackToGoal",
     description:
       "Pioneered a groundbreaking feature for the BackToGoal running app, leveraging real-time pace data to intelligently predict and signal users when it's time to turn back. This innovative functionality optimizes time management during runs, enhancing the overall user experience and setting the app apart in the fitness technology landscape.",
-    imageUrl: "/images/projects/gastronome.png",
+    imageUrl: "/images/projects/BackToGoal.png",
     imageWidth: 120,
     imageHeight: 120,
-    url: "https://gastronomecc.github.io/gastronome-site/",
-    tags: ["Android", "Firebase"],
+    url: "https://github.com/ktzy0305/BackToGoal",
+    tags: ["iOS", "MapKit"],
   },
 ];
