@@ -2,6 +2,14 @@ import { WorkExperience } from "@/app/@types/workexperience";
 
 export const experience: WorkExperience[] = [
   {
+    organization: "A*STAR",
+    role: "LLM Research Intern",
+    start: "May 2024",
+    end: "Present",
+    description: "Curated and refined datasets from long, structured documents. Investigating data processing pipeline challenges and exploring cutting-edge Multi-Modal Large Language Models.",
+    tags: ["LangChain", "LangGraph", "Artifical Intelligence"]
+  },
+  {
     organization: "NUS Computing",
     role: "Research Engineer",
     start: "Jun 2023",
