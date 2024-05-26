@@ -1,6 +1,7 @@
 "use client";
 
 import { Inter } from "next/font/google";
+import 'katex/dist/katex.min.css';
 import "./globals.css";
 import NavigationBar from "./components/navbar";
 import { ThemeProvider } from "./contexts/ThemeContext";

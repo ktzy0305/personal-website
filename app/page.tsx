@@ -84,6 +84,7 @@ export default function Home() {
           </header>
           {experience.map((experience: WorkExperience) => (
             <ExperienceComponent
+              key={experience.role}
               organization={experience.organization}
               role={experience.role}
               start={experience.start}
@@ -98,6 +99,7 @@ export default function Home() {
           <header className="font-bold uppercase mb-4 text-lg">Projects</header>
           {projects.map((project: Project) => (
             <ProjectComponent
+              key={project.name}
               name={project.name}
               description={project.description}
               imageUrl={project.imageUrl}
