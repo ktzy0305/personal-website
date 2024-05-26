@@ -3,6 +3,7 @@ import { getPostData } from "@/lib/posts";
 import Link from "next/link";
 import { FaArrowLeft } from "react-icons/fa";
 import Image from "next/image";
+import 'katex/dist/katex.min.css';
 import utilStyles from "@/styles/utils.module.css";
 import "@/app/blog/styles.css";
 
