@@ -29,6 +29,11 @@ const NavigationBar = (): JSX.Element => {
       "--navbar-color",
       isDarkMode ? "white" : "black",
     );
+    if (isDarkMode) {
+      document.documentElement.classList.add("dark-mode");
+    } else {
+      document.documentElement.classList.remove("dark-mode");
+    }
   }, [isDarkMode]);
 
   return (

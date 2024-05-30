@@ -1,12 +1,14 @@
 import fs from "fs";
-import path from "path";
 import matter from "gray-matter";
-import { remark } from "remark";
+import path from "path";
 import rehypeKatex from "rehype-katex";
-import rehypeStringify from 'rehype-stringify'
-import remarkParse from 'remark-parse'
+import rehypeStringify from 'rehype-stringify';
+import remarkParse from 'remark-parse';
 import remarkMath from "remark-math";
 import remarkRehype from "remark-rehype";
+import { Prism } from 'remark-prism';
+import { remark } from "remark";
+import rehypePrism from "rehype-prism";
 
 const postsDirectory = path.join(process.cwd(), "posts");
 
@@ -70,6 +72,7 @@ export async function getPostData(id: string) {
     .use(remarkMath)
     .use(remarkRehype)
     .use(rehypeKatex)
+    .use(rehypePrism, { plugins: ['line-numbers'] })
     .use(rehypeStringify)
     .process(matterResult.content);
 

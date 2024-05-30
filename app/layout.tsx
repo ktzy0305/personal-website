@@ -5,7 +5,7 @@ import 'katex/dist/katex.min.css';
 import "./globals.css";
 import NavigationBar from "./components/navbar";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import { ReactNode } from "react";
+import { ReactNode, useEffect } from "react";
 
 export type LayoutProps = {
   children: ReactNode;

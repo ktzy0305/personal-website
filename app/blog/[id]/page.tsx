@@ -1,11 +1,16 @@
 import Date from "@/app/components/date";
-import { getPostData } from "@/lib/posts";
-import Link from "next/link";
-import { FaArrowLeft } from "react-icons/fa";
 import Image from "next/image";
-import 'katex/dist/katex.min.css';
+import Link from "next/link";
 import utilStyles from "@/styles/utils.module.css";
+import { FaArrowLeft } from "react-icons/fa";
+import { getPostData } from "@/lib/posts";
 import "@/app/blog/styles.css";
+import 'katex/dist/katex.min.css';
+import 'prismjs/themes/prism-coy.css';
+import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
+
+// Load Language CSS
+import 'prismjs/components/prism-python';
 
 interface PostData {
   title: string;
