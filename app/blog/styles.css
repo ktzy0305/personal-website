@@ -15,23 +15,43 @@ p {
 }
 
 ol {
-  @apply space-y-1 text-gray-500 list-decimal list-inside dark:text-gray-400;
+  @apply space-y-1 text-gray-500 list-decimal list-inside;
+}
+
+.dark-mode ol {
+  @apply text-gray-400;
 }
 
 ul {
-  @apply space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400;
+  @apply space-y-1 text-gray-500 list-disc list-inside;
+}
+
+.dark-mode ul {
+  @apply text-gray-400;
 }
 
 blockquote {
-  @apply p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-900;
+  @apply p-4 my-4 border-s-4 border-gray-300 bg-gray-50;
 }
 
 blockquote > p {
-  @apply text-lg italic font-medium leading-relaxed text-gray-900 dark:text-white;
+  @apply text-lg italic font-medium leading-relaxed text-gray-900;
+}
+
+.dark-mode blockquote {
+  @apply border-gray-500 bg-gray-900;
+}
+
+.dark-mode blockquote > p {
+  @apply text-white;
 }
 
 pre {
-  @apply p-4 rounded-md border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-900;
+  @apply p-4 rounded-md border-gray-300 bg-gray-50;
+}
+
+.dark-mode pre {
+  @apply border-gray-500 bg-gray-900;
 }
 
 p > img {

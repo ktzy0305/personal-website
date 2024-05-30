@@ -7,9 +7,7 @@ import SocialMediaIcons from "./components/social";
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import { useTheme } from "./contexts/ThemeContext";
-import { experience } from "@/lib/experience";
 import { WorkExperience } from "./@types/workexperience";
-import { projects } from "@/lib/projects";
 import { Project } from "./@types/project";
 
 export default function Home() {
@@ -17,6 +15,9 @@ export default function Home() {
 
   const name = useRef(null);
   const title = useRef(null);
+
+  const [experience, setExperience] = React.useState<WorkExperience[]>([]);
+  const [projects, setProjects] = React.useState<Project[]>([]);
 
   useEffect(() => {
     const typedName = new Typed(name.current, {
@@ -34,6 +35,39 @@ export default function Home() {
       typedName.destroy();
       typedTitle.destroy();
     };
+  }, []);
+
+  useEffect(() => {
+    const fetchExperienceData = async () => {
+      try {
+        const res = await fetch("/api/experience");
+        if (res.ok) {
+          const experienceData: WorkExperience[] = await res.json();
+          setExperience(experienceData);
+        } else {
+          throw new Error("Failed to fetch experience data");
+        }
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    const fetchProjectsData = async () => {
+      try {
+        const res = await fetch("/api/projects");
+        if (res.ok) {
+          const projectData: Project[] = await res.json();
+          setProjects(projectData);
+        } else {
+          throw new Error("Failed to fetch projects data");
+        }
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    fetchExperienceData();
+    fetchProjectsData();
   }, []);
 
   return (
