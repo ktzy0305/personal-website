@@ -1,0 +1,113 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage{graphicx}
+\usetheme{Madrid}
+
+\title{Introduction to LLMs, LangChain, and LangGraph}
+\author{Kevin Toh}
+\date{June 7, 2024}
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Overview}
+  \tableofcontents
+\end{frame}
+
+\section{Large Language Models}
+
+\begin{frame}{Large Language Models}
+  \begin{block}{Definitions and Terminologies}
+    \begin{itemize}
+      \item \textbf{Large Language Model}: A neural network utilizing the transformer architecture.
+      \item \textbf{Word Embeddings}: Represent words as vectors in a multi-dimensional space.
+      \item \textbf{Vectorization}: Conversion of sentences into numerical representations.
+      \item \textbf{Embeddings}: Real-valued vectors encoding word meaning.
+      \item \textbf{Inference Engine}: Hosted language model using specialized hardware.
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Examples of LLMs}
+  \begin{itemize}
+    \item GPT-3.5, GPT-4o by OpenAI
+    \item Llama3 8b/13b/70b by MetaAI
+    \item Claude 3.5 Sonnet by Anthrophic
+    \item Gemma 2 9b/27b by Google
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Inference Example}
+\begin{verbatim}
+from langchain_groq import ChatGroq
+mixtral8x7b = ChatGroq(model="mixtral-8x7b-32768")
+\end{verbatim}
+\end{frame}
+
+\section{Understanding LLM Features}
+
+\begin{frame}{Understanding LLM Features}
+  \begin{block}{Parameter Size}
+    \begin{itemize}
+      \item Determines model complexity and performance.
+      \item Examples: GPT-3.5 (175B), Llama 3 (8B, 13B, 70B)
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Context Window}
+    \begin{itemize}
+      \item Maximum tokens considered by the model.
+      \item Examples: GPT-3.5 (2048 tokens), Llama 3 (8192 tokens)
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\section{LLM Settings}
+
+\begin{frame}{LLM Settings}
+  \begin{block}{Temperature}
+    \begin{itemize}
+      \item Controls randomness of model's output.
+      \item Low temperature for factual QA, high for creative tasks.
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Top P}
+    \begin{itemize}
+      \item Nucleus sampling to adjust model determinism.
+      \item Low top P for exact answers, high for diverse responses.
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\section{LangChain and LangGraph}
+
+\begin{frame}{LangChain: LLM Application Framework}
+  \begin{block}{Definition}
+    Framework for developing LLM applications.
+  \end{block}
+
+  \begin{block}{Example}
+\begin{verbatim}
+from langchain_core.prompts import ChatPromptTemplate
+
+essay_generation_prompt_template = ChatPromptTemplate.from_messages(
+    [("system", GENERATOR_PROMPT),
+    ("human", "{question}")]
+)
+\end{verbatim}
+  \end{block}
+\end{frame}
+
+\begin{frame}{LangGraph: Multi-Agent Framework}
+  \begin{block}{Definition}
+    Framework for building multi-agent LLM applications.
+  \end{block}
+
+  \begin{block}{Benefits}
+    Improves performance by structuring agents as a graph.
+  \end{block}
+\end{frame}
+
+\end{document}
