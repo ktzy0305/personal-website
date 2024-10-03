@@ -16,7 +16,7 @@
     "imageUrl": "/images/projects/volunteerus.png",
     "imageWidth": 160,
     "imageHeight": 120,
-    "url": "https://volunteer-us.onrender.com/",
+    "url": "https://volunteer-us.netlify.app/",
     "tags": ["React", "NestJS", "MongoDB"]
   },
   {
