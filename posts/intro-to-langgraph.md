@@ -12,11 +12,12 @@ This is the first time I am writing an educative blog post about what I've learn
 I will begin this blog post by defining and introducing a few key terminologies for those of you who are not familiar to Generative AI and LLMs.
 
 # 1. Large Language Models
+Large Language Models are both 'large' and also a 'language model'. They are 'large' because they are trained on extensive datasets, encompassing vast amounts of data. The definition of a 'language model' is provided later.
 
 ## 1.1. Definitions and Terminologies
 
-> ### 1.1.1. Large Language Model
-> A Large Language Model is both 'large' and also a 'language model'. I will first explain what is a 'language model'. A language model is an neural network that uses the [transformer architecture](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)).
+> ### 1.1.1. Language Model
+> A language model is an neural network that uses the [transformer architecture](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)). It is a statistical model
 
 Examples of Large Language Models include 
 - GPT-3.5, [GPT-4o](https://openai.com/index/hello-gpt-4o/) by [OpenAI](https://platform.openai.com/docs/models)
@@ -28,14 +29,14 @@ Examples of Large Language Models include
 > ### 1.1.2. Word Embeddings
 > A way of representing words as vectors in a multi-dimensional space, where the distance and direction between vectors reflect the similarity and relationships among the corresponding words (IBM, 2024)
 
+Typically, the embedding is represented as a real-valued vector that encodes the meaning of the word in such a way that the words that are closer in the vector space are expected to be similar in meaning.
+
+Methods to generate this mapping include dimensionality reduction (Huffman Coding?), the word co-occurrence matrix or probabilistic models.
+
 > ### 1.1.3. Vectorization  
 > To convert a sentence into numerical representations usually decimals via a lookup from a word embedding table.
 
-> ### 1.1.4. Embeddings
-> Typically, the embedding is represented as a real-valued vector that encodes the meaning of the word in such a way that the words that are closer in the vector space are expected to be similar in meaning.
-> Methods to generate this mapping include dimensionality reduction (Huffman Coding?), the word co-occurrence matrix or probabilistic models.
-
-> ### 1.1.5. Inference Engine
+> ### 1.1.4. Inference Engine
 > An inference engine is simply a language model that is hosted on the web using specialized hardware a.k.a Language Processing Units.
 
 Groq is an inference service provider that provides the following language models
@@ -48,7 +49,7 @@ from langchain_groq import ChatGroq
 mixtral8x7b = ChatGroq(model="mixtral-8x7b-32768")
 ```
 
-> ### 1.1.6. Agent
+> ### 1.1.5. Agent
 > An agent is simply a function that chooses a sequence of actions to take. It may contain instances of a Language Model or various other components to help it make decisions based on the inputs it receives.
 
 
@@ -106,6 +107,8 @@ from langchain_openai import ChatOpenAI
 
 model = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.7, streaming=True)
 ```
+
+> ### 1.3.2 Top-P Sampling 
 
 ## 2. LangChain: The Framework for LLM Applications
 LangChain is an LLM application framework. The origins of its name isn't formally known. "Lang" clearly represents Language however "Chain" is quite subjective but if I have to make an educated guess, it could possibly mean the "chaining" or in mathematical terms the composition of multiple functions. 
