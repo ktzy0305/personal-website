@@ -10,6 +10,7 @@ const NavigationBar = (): JSX.Element => {
   const pathname = usePathname();
   const isActive = (path: string) => pathname === path;
   const isBlogPost = () => pathname.startsWith("/blog");
+  const isNotes = () => pathname.startsWith("/notes");
 
   useEffect(() => {
     // Update CSS variables when the theme changes
@@ -55,6 +56,9 @@ const NavigationBar = (): JSX.Element => {
         >
           <Link href="/blog">Blog</Link>
         </div>
+        {/* <div className={`${styles.navItem} ${isActive('/notes') || isNotes() ? styles.active : ""}`}>
+          <Link href="/notes">Notes</Link>
+        </div> */}
         <ToggleSwitch />
       </nav>
     </div>
