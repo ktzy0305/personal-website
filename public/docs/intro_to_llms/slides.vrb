@@ -1,5 +1,0 @@
-\frametitle{Inference Example}
-\begin{verbatim}
-from langchain_groq import ChatGroq
-mixtral8x7b = ChatGroq(model="mixtral-8x7b-32768")
-\end{verbatim}
