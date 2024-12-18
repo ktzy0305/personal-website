@@ -23,3 +23,14 @@
 nav.navbar {
   background: var(--navbar-color, 33, 43, 69);
 }
+
+/* .navItem.activemenuitem {
+  background-color: var(--navItem-color, black);
+  display: block;
+  color: black;
+  padding: 10px;
+}
+
+.navItem.activemenuitem::after {
+  display: none !important;
+} */

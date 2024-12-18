@@ -28,7 +28,9 @@ const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
     );
     document.documentElement.style.setProperty(
       "--background-end-rgb",
-      isDarkMode ? "33, 43, 69" : "255, 255, 255",
+      isDarkMode ? "22, 28, 45" : "255, 255, 255",
+      // isDarkMode ? "28, 36, 52" : "255, 255, 255",
+      // isDarkMode ? "28, 34, 49" : "255, 255, 255",
     );
   }, [isDarkMode]);
 
