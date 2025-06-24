@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { Project } from '@/app/@types/project';
 import { WorkExperience } from '@/app/@types/workexperience';
+import { Module } from '@/app/@types/module';
 
 const dataDirectory = path.join(process.cwd(), 'data');
 
@@ -18,4 +19,11 @@ export function loadProjectsData(): Project[] {
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const data: Project[] = JSON.parse(fileContents);
   return data;
+}
+
+export function loadModuleData(): Module[] {
+  const filePath = path.join(dataDirectory, "modules.json");
+  const fileContents = fs.readFileSync(filePath, 'utf8');
+  const data: Module[] = JSON.parse(fileContents);
+  return data
 }

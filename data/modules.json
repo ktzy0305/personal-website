@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cs2103",
+    "code" : "CS2103/T",
+    "name" : "Software Engineering",
+    "description": "Learn how to plan, build, and maintain robust software systems in a disciplined way, combining theory (UML, design patterns, testing strategies) with hands-on tools and teamwork to prepare for real-world software engineering challenges."
+  },
+  {
+    "id": "cs2106",
+    "code" : "CS2106",
+    "name" : "Introduction to Operating Systems",
+    "description": "Learn the core concepts that form the foundation of modern operating systems including processes and threads, CPU scheduling, synchronization and concurrency, memory management and file systems."
+  },
+  {
+    "id": "cs2109s",
+    "code" : "CS2109S",
+    "name" : "Introduction to AI and Machine Learning",
+    "description": "This module covers a broad spectrum of topics in Artificial Intelligence and Machine Learning, from classical search algorithms that operate on state spaces, to statistical learning methods like regression, and modern neural network architectures."
+  },
+  {
+    "id": "cs3230",
+    "code": "CS3230",
+    "name": "Design and Analysis of Algorithms",
+    "description": "This modules teaches techniques for designing and analyzing algorithms, covering complexity analysis, recurrences, classical paradigms (divide-and-conquer, dynamic programming, greedy, randomized), and advanced topics like amortized analysis and NP-completeness, including reductions and understanding computational problem limits."
+  }
+]

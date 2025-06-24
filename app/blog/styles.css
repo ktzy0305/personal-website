@@ -18,7 +18,7 @@ ol {
   @apply space-y-1 text-gray-500 list-decimal list-inside;
 }
 
-.dark-mode ol {
+.dark ol {
   @apply text-gray-400;
 }
 
@@ -26,7 +26,7 @@ ul {
   @apply space-y-1 text-gray-500 list-disc list-inside;
 }
 
-.dark-mode ul {
+.dark ul {
   @apply text-gray-400;
 }
 
@@ -38,11 +38,11 @@ blockquote > p {
   @apply text-lg italic font-medium leading-relaxed text-gray-900;
 }
 
-.dark-mode blockquote {
-  @apply border-gray-500 bg-gray-900;
+.dark blockquote {
+  @apply border-gray-500 bg-gray-800;
 }
 
-.dark-mode blockquote > p {
+.dark blockquote > p {
   @apply text-white;
 }
 
@@ -50,8 +50,8 @@ pre {
   @apply p-4 rounded-md border-gray-300 bg-gray-50;
 }
 
-.dark-mode pre {
-  @apply border-gray-500 bg-gray-900;
+.dark pre {
+  @apply border-gray-500 bg-gray-800;
 }
 
 p > img {

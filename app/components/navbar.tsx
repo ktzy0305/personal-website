@@ -34,9 +34,9 @@ const NavigationBar = (): JSX.Element => {
       isDarkMode ? "white" : "black",
     );
     if (isDarkMode) {
-      document.documentElement.classList.add("dark-mode");
+      document.documentElement.classList.add("dark");
     } else {
-      document.documentElement.classList.remove("dark-mode");
+      document.documentElement.classList.remove("dark");
     }
   }, [isDarkMode]);
 
@@ -107,9 +107,9 @@ const NavigationBar = (): JSX.Element => {
             >
               <Link href="/blog">Blog</Link>
             </div>
-            {/* <div className={`${styles.navItem} ${isActive('/notes') || isNotes() ? styles.active : ""} md:ml-3`}>
+            <div className={`${styles.navItem} ${isActive('/notes') || isNotes() ? styles.active : ""} md:ml-3`}>
               <Link href="/notes">Notes</Link>
-            </div> */}
+            </div>
             {/* <div className={`${styles.navItem} ${isActive('/publications') || isPublications() ? styles.active : ""}`}>
               <Link href="/publications">Publications</Link>
             </div> */}
