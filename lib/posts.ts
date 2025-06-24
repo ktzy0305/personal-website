@@ -6,7 +6,6 @@ import rehypeStringify from 'rehype-stringify';
 import remarkParse from 'remark-parse';
 import remarkMath from "remark-math";
 import remarkRehype from "remark-rehype";
-import { Prism } from 'remark-prism';
 import { remark } from "remark";
 import rehypePrism from "rehype-prism";
 
@@ -48,7 +47,7 @@ export function getSortedPostsData() {
 }
 
 export function getAllPostIds() {
-  const fileNames = fs.readdirSync(postsDirectory);
+  const fileNames = fs.readdirSync(postsDirectory).filter(name => name.endsWith(".md"));
 
   return fileNames.map((fileName) => {
     return {
