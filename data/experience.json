@@ -1,5 +1,13 @@
 [
   {
+    "organization": "AI Singapore",
+    "role": "Associate AI Engineer",
+    "start": "September 2025",
+    "end": "Present",
+    "description": "Learning the full machine learning life cycle, exploring model architectures, knowledge representation and model deployment (MLOps)",
+    "tags": ["Machine Learning", "MLOps", "Computer Vision"]
+  },
+  {
     "organization": "A*STAR",
     "role": "LLM Research Intern",
     "start": "May 2024",

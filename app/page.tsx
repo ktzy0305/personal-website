@@ -27,7 +27,7 @@ export default function Home() {
     });
 
     const typedTitle = new Typed(title.current, {
-      strings: ["Computer Science Undergraduate"],
+      strings: ["Associate AI Engineer"],
       typeSpeed: 50,
     });
 
@@ -93,8 +93,10 @@ export default function Home() {
             isDarkMode ? "text-gray-300" : "text-gray-600"
           } 'lg:text-sm xl:text-base font-light mb-3`}
         >
-          I dive into the intricate details of software development, gaining
-          hands-on experience that extends across various platforms.
+          I’m fascinated by how any form of data, be it text, images, or sound, can
+          be transformed into representations that machines can understand. What
+          once began as abstract theories has steadily evolved into reality,
+          powered by advances in computing and clever architectural design.
         </div>
         <SocialMediaIcons />
       </div>
@@ -104,11 +106,9 @@ export default function Home() {
         <section id="about">
           <header className="font-bold uppercase mb-4 text-lg">About</header>
           <div className="mb-6">
-            Hello there! I’m a sophomore at National University of Singapore
-            immersing myself in the world of Computer Science with a minor in
-            Data Science and Analytics. My passion lies in creating innovative
-            software solutions that contribute to the evolution of our digital
-            landscape.
+            I’m driven by how different modalities can be encoded, aligned, and fused to model and make predictions of the world. I love exploring these architectures and using them creatively to build systems that serve a greater purpose where technology not only performs well but contributes meaningfully to people's lives.
+
+            As an Associate AI Engineer at AI Singapore and a Computer Science graduate from NUS, I focus on bridging deep learning research with practical applications, transforming ideas into working systems that push the boundaries of how machines perceive and reason.
           </div>
         </section>
         {/* Experience */}
