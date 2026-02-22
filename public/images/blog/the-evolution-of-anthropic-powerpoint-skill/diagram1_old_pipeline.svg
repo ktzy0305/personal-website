@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" font-family="'Segoe UI', system-ui, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="520" fill="#0F1117" rx="16"/>
+
+  <!-- Title -->
+  <text x="450" y="44" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">OLD WORKFLOW — Create from Scratch</text>
+  <text x="450" y="64" text-anchor="middle" font-size="12" fill="#6B7280">Before February 4, 2026</text>
+
+  <!-- Node 1: Agent Prompt -->
+  <rect x="340" y="88" width="220" height="52" rx="8" fill="#1E2761" stroke="#4A5FD4" stroke-width="1.5"/>
+  <text x="450" y="109" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">Agent Prompt</text>
+  <text x="450" y="128" text-anchor="middle" font-size="11" fill="#A5B4FC">"Create a presentation about X"</text>
+
+  <!-- Arrow 1 -->
+  <line x1="450" y1="140" x2="450" y2="162" stroke="#374151" stroke-width="2"/>
+  <polygon points="450,168 444,158 456,158" fill="#374151"/>
+
+  <!-- Node 2: HTML files -->
+  <rect x="270" y="170" width="360" height="66" rx="8" fill="#1C2951" stroke="#3B5BDB" stroke-width="1.5"/>
+  <text x="450" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">Generate HTML Slides</text>
+  <text x="450" y="211" text-anchor="middle" font-size="11" fill="#93C5FD">slide1.html · slide2.html · slide3.html</text>
+  <text x="450" y="227" text-anchor="middle" font-size="10" fill="#60A5FA">720×405pt (16:9) point-based coordinates</text>
+
+  <!-- Preview callout -->
+  <rect x="650" y="178" width="176" height="42" rx="6" fill="#064E3B" stroke="#10B981" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="738" y="196" text-anchor="middle" font-size="10" font-weight="700" fill="#10B981">✦  VISIBLE PREVIEW</text>
+  <text x="738" y="212" text-anchor="middle" font-size="10" fill="#6EE7B7">HTML files are inspectable</text>
+  <line x1="650" y1="199" x2="630" y2="199" stroke="#10B981" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- Arrow 2 -->
+  <line x1="450" y1="236" x2="450" y2="258" stroke="#374151" stroke-width="2"/>
+  <polygon points="450,264 444,254 456,254" fill="#374151"/>
+
+  <!-- Node 3: Playwright -->
+  <rect x="270" y="266" width="360" height="66" rx="8" fill="#2D1B4E" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="450" y="289" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">Playwright (Headless Browser)</text>
+  <text x="450" y="307" text-anchor="middle" font-size="11" fill="#C4B5FD">Loads each HTML slide page</text>
+  <text x="450" y="323" text-anchor="middle" font-size="10" fill="#A78BFA">Interacts with DOM elements</text>
+
+  <!-- Arrow 3 -->
+  <line x1="450" y1="332" x2="450" y2="354" stroke="#374151" stroke-width="2"/>
+  <polygon points="450,360 444,350 456,350" fill="#374151"/>
+
+  <!-- Node 4: html2pptx.js -->
+  <rect x="270" y="362" width="360" height="66" rx="8" fill="#2D1B4E" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="450" y="385" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">html2pptx.js</text>
+  <text x="450" y="403" text-anchor="middle" font-size="11" fill="#C4B5FD">Extracts DOM elements</text>
+  <text x="450" y="419" text-anchor="middle" font-size="10" fill="#A78BFA">Converts to pptxgenjs shapes · ⚠ incomplete (no native tables)</text>
+
+  <!-- Arrow 4 -->
+  <line x1="450" y1="428" x2="450" y2="450" stroke="#374151" stroke-width="2"/>
+  <polygon points="450,456 444,446 456,446" fill="#374151"/>
+
+  <!-- Node 5: Output -->
+  <rect x="340" y="458" width="220" height="44" rx="8" fill="#1A2E1A" stroke="#22C55E" stroke-width="1.5"/>
+  <text x="450" y="476" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">output.pptx</text>
+  <text x="450" y="493" text-anchor="middle" font-size="10" fill="#86EFAC">Final rendered presentation</text>
+
+  <!-- Step labels -->
+  <text x="240" y="120" text-anchor="middle" font-size="10" fill="#4B5563" font-weight="600">STEP 1</text>
+  <text x="240" y="207" text-anchor="middle" font-size="10" fill="#4B5563" font-weight="600">STEP 2</text>
+  <text x="240" y="303" text-anchor="middle" font-size="10" fill="#4B5563" font-weight="600">STEP 3</text>
+  <text x="240" y="399" text-anchor="middle" font-size="10" fill="#4B5563" font-weight="600">STEP 4</text>
+  <text x="240" y="484" text-anchor="middle" font-size="10" fill="#4B5563" font-weight="600">STEP 5</text>
+</svg>
