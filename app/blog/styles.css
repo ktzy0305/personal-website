@@ -54,6 +54,53 @@ pre {
   @apply border-gray-500 bg-gray-800;
 }
 
-p > img {
-  width: 300px;
+p > img,
+p > a > img {
+  display: block;
+  width: min(100%, 720px);
+  max-width: 100%;
+  height: auto;
+  margin: 0.75rem auto;
+}
+
+.blog-content a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  color: #0284c7;
+}
+
+.blog-content a:hover {
+  color: #0369a1;
+}
+
+.dark .blog-content a {
+  color: #7dd3fc;
+}
+
+.dark .blog-content a:hover {
+  color: #bae6fd;
+}
+
+.dark pre[class*="language-"],
+.dark code[class*="language-"] {
+  color: #e5e7eb;
+  text-shadow: none;
+}
+
+.dark :not(pre) > code[class*="language-"] {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.dark .token,
+.dark .token.punctuation,
+.dark .token.operator,
+.dark .token.plain-text {
+  color: #e5e7eb;
+}
+
+.dark .token.comment,
+.dark .token.prolog,
+.dark .token.doctype,
+.dark .token.cdata {
+  color: #9ca3af;
 }
