@@ -6,11 +6,12 @@ import { FaArrowLeft } from "react-icons/fa";
 import { getPostData } from "@/lib/posts";
 import "@/app/blog/styles.css";
 import 'katex/dist/katex.min.css';
-import 'prismjs/themes/prism-coy.css';
+import 'prismjs/themes/prism-tomorrow.css';
 import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
 
 // Load Language CSS
 import 'prismjs/components/prism-python';
+import 'prismjs/components/prism-bash';
 
 interface PostData {
   title: string;
@@ -72,7 +73,10 @@ export default async function Post({ params }: Props) {
 
         {/* Post Content */}
 
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div
+          className="blog-content"
+          dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+        />
       </article>
     </div>
   );
