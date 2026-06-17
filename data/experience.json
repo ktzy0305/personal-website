@@ -1,9 +1,17 @@
 [
   {
+    "organization": "Razer Inc.",
+    "role": "Associate Software Engineer",
+    "start": "April 2026",
+    "end": "Present",
+    "description": "Contributing to the development of Razer Ava, an AI personal assistant designed to enhance user experience across Razer's ecosystem. Involved in implementing AI-driven features, optimizing performance, and ensuring seamless integration with Razer's hardware and software products.",
+    "tags": ["Artificial Intelligence", "Software Development", "Razer Ava"]
+  },
+  {
     "organization": "AI Singapore",
     "role": "Associate AI Engineer",
     "start": "September 2025",
-    "end": "Present",
+    "end": "March 2026",
     "description": "Learning the full machine learning life cycle, exploring model architectures, knowledge representation and model deployment (MLOps)",
     "tags": ["Machine Learning", "MLOps", "Computer Vision"]
   },
