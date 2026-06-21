@@ -27,8 +27,8 @@ export default function Home() {
 
         <section id="experience">
           <SectionLabel index="01">Experience</SectionLabel>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {experience.map((item: WorkExperience, i: number) => (
+          <div className="flex flex-col gap-4">
+            {experience.map((item: WorkExperience) => (
               <ExperienceComponent
                 key={item.role}
                 organization={item.organization}
@@ -37,7 +37,6 @@ export default function Home() {
                 end={item.end}
                 description={item.description}
                 tags={item.tags}
-                featured={i === 0}
               />
             ))}
           </div>

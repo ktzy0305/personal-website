@@ -89,7 +89,7 @@ export default async function ModulePage({
                   return (
                     <li key={file}>
                       <LinkCard
-                        href={`/docs/${id}/${dir.name}/${file}`}
+                        href={`/docs/${encodeURIComponent(id)}/${encodeURIComponent(dir.name)}/${encodeURIComponent(file)}`}
                         eyebrow={ext}
                         title={name}
                         external

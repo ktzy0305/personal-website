@@ -39,7 +39,7 @@ export const metadata = {
 
 export default function RootLayout(props: LayoutProps) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${display.variable} ${sans.variable} ${mono.variable} font-sans antialiased`}
       >

@@ -45,10 +45,6 @@
 }
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-
   --background: oklch(0.985 0.006 83);
   --foreground: oklch(0.24 0.008 75);
   --card: oklch(1 0 0);
@@ -69,14 +65,6 @@
   --ring: oklch(0.708 0 0);
   --brand: oklch(0.6 0.16 56);
   --radius: 0.625rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 22, 28, 45;
-    --background-end-rgb: 22, 28, 45;
-  }
 }
 
 .dark {
