@@ -7,17 +7,14 @@ interface ExperienceProps {
   end: string;
   description: string;
   tags: string[];
-  featured?: boolean;
 }
 
 export default function ExperienceComponent(props: ExperienceProps) {
-  const isPresent = props.end.toLowerCase() === "present";
+  const isPresent = props.end?.toLowerCase() === "present";
 
   return (
     <article
-      className={`group relative flex flex-col rounded-xl border border-border/60 bg-card/40 p-5 transition-colors duration-300 hover:border-brand/50 hover:bg-card ${
-        props.featured ? "sm:col-span-2" : ""
-      }`}
+      className="group relative flex flex-col rounded-xl border border-border/60 bg-card/40 p-5 transition-colors duration-300 hover:border-brand/50 hover:bg-card"
     >
       <div className="flex items-center justify-between gap-3">
         <span className="font-mono text-[0.7rem] uppercase tracking-wider text-muted-foreground">
@@ -39,7 +36,7 @@ export default function ExperienceComponent(props: ExperienceProps) {
       </h3>
       <p className="text-sm font-medium text-brand/90">{props.organization}</p>
 
-      <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted-foreground">
+      <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
         {props.description}
       </p>
 

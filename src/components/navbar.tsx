@@ -5,8 +5,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import styles from "@/styles/navigation.module.css";
 import ToggleSwitch from "./switch";
-import { useTheme } from "@/contexts/ThemeContext";
-import { useEffect } from "react";
 import { HugeiconsIcon } from "@hugeicons/react";
 import { Menu01Icon } from "@hugeicons/core-free-icons";
 import { Button } from "@/components/ui/button";
@@ -20,20 +18,10 @@ import {
 } from "@/components/ui/sheet";
 
 const NavigationBar = (): JSX.Element => {
-  const { isDarkMode } = useTheme() ?? {};
   const pathname = usePathname();
   const isActive = (path: string) => pathname === path;
   const isBlogPost = () => pathname.startsWith("/blog");
   const isNotes = () => pathname.startsWith("/notes");
-
-  useEffect(() => {
-    // Update CSS variables when the theme changes
-    if (isDarkMode) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [isDarkMode]);
 
   const navLinks = (
     <>

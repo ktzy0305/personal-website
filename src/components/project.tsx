@@ -44,7 +44,7 @@ export default function ProjectComponent(props: ProjectProps) {
           />
         </div>
 
-        <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted-foreground">
+        <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
           {props.description}
         </p>
 
