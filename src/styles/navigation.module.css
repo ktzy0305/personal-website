@@ -1,0 +1,31 @@
+.navItem {
+  color: inherit;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted-foreground);
+  transition: color 0.2s ease;
+}
+
+.navItem:hover {
+  color: var(--foreground);
+}
+
+.navItem::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: var(--brand);
+  margin-top: 6px;
+  transition: width 0.25s ease;
+}
+
+.navItem.active {
+  color: var(--foreground);
+}
+
+.navItem.active::after {
+  width: 100%;
+}
